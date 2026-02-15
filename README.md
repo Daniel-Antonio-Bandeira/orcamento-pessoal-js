@@ -21,4 +21,4 @@ Aplicação web para registro e consulta de despesas, desenvolvida com JavaScrip
 
 ## 🎯 Objetivo
 
-Projeto desenvolvido como parte dos estudos em JavaScript, com base no curso de Desenvolvimento Web, ministrado pelo professor Jorge Sant Ana, aplicando conceitos de orientação a objetos, manipulação do DOM e localStorage.
+Projeto desenvolvido como parte dos estudos em JavaScript, com base no curso de Desenvolvimento Web ministrado pelo professor Jorge Sant Ana. A aplicação foi construída para praticar conceitos de orientação a objetos, manipulação do DOM e persistência de dados utilizando LocalStorage.
