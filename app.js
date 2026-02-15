@@ -244,3 +244,6 @@ function pesquisarDespesa() {
 
     this.carregaListaDespesas(despesas, true)
 }
+
+
+console.log('testando')
