@@ -246,4 +246,3 @@ function pesquisarDespesa() {
 }
 
 
-console.log('testando')
