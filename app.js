@@ -245,6 +245,7 @@ function pesquisarDespesa() {
     this.carregaListaDespesas(despesas, true)
 }
 
+//função de formatação do valor da despesa em R$
 function formatarMoeda(valor) {
     return Number(valor).toLocaleString('pt-BR', {
         style: 'currency',
