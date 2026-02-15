@@ -206,7 +206,7 @@ function carregaListaDespesas(despesas = Array(), filtro = false) {
         }
         linha.insertCell(1).innerHTML = (d.tipo)
         linha.insertCell(2).innerHTML = (d.descricao)
-        linha.insertCell(3).innerHTML = (d.valor)
+        linha.insertCell(3).innerHTML = formatarMoeda(d.valor)
 
         //criar o botao de exclusao
         let btn = document.createElement("button")
@@ -245,4 +245,9 @@ function pesquisarDespesa() {
     this.carregaListaDespesas(despesas, true)
 }
 
-
+function formatarMoeda(valor) {
+    return Number(valor).toLocaleString('pt-BR', {
+        style: 'currency',
+        currency: 'BRL'
+    })
+}
